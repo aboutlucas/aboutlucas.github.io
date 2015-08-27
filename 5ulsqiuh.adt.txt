@@ -1,0 +1,20 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   aboutlucas.github.io
+#
+# Changes not staged for commit:
+#	modified:   blog (modified content)
+#	modified:   jekyll-blog (modified content)
+#	modified:   kasper (modified content)
+#	modified:   will-jekyll-template (modified content)
+#	modified:   willianjusten.github.io (modified content)
+#
+# Untracked files:
+#	3tlrku3i.r2j.txt
+#
+
