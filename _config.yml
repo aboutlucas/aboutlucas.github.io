@@ -35,7 +35,7 @@ links:
     url: /series
   - title: Tags
     url: /tags
-  - title: Sobre
+  - title: about me
     url: /about
 
 # exclude my node related stuff
