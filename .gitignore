@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 _site
 .sass-cache
 node_modules
 _drafts
+=======
+_site/
+.sass-cache/
+>>>>>>> aboutlucas.github.io
