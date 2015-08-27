@@ -1,17 +1,17 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
-baseurl: "http://localhost:3000" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
+baseurl: "http://aboutlucas.github.io/" # the subpath of your site, e.g. /blog/
+url: "http://aboutlucas.github.io/" # the base hostname & protocol for your site 
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
+username: Lucas Moraes
+user_description: Densenvolvedor Front End
+user_title: Desenvolvedor Front End
+email: lucasdmwork@gmail.com
 twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+github_username:  aboutlucas
+gplus_username:  lucasdmwork
+disqus_username: ulucas
 
 # Build settings
 markdown: kramdown
