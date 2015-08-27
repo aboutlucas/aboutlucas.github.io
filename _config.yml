@@ -1,0 +1,42 @@
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: " " # the subpath of your site, e.g. /blog/
+url: "http://aboutlucas.github.io/" # the base hostname & protocol for your site 
+
+# User settings
+username: Lucas Moraes
+user_description: Densenvolvedor Front End
+user_title: Desenvolvedor Front End
+email: lucasdmwork@gmail.com
+twitter_username: lorem_ipsum
+github_username:  aboutlucas
+gplus_username:  lucasdmwork
+disqus_username: ulucas
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
