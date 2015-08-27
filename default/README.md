@@ -1,2 +1,0 @@
-# aboutlucas.github.io
-Blog
