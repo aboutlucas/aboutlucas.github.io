@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lógica da Programação - Parte 1"
-date: 2015-25-08 19:56:23
+date: 2015-08-05 19:56:23
 description: "Começando a programar."
 tags:
 - logica
