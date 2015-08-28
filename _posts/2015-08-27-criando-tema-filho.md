@@ -33,7 +33,7 @@ Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outr
  Author:         Lucas Dias
  Author URI:   http://example.com
  Template:     storefront
- Version:    1.4.6  É importante modificar o Version se você atualizar o tema.
+ Version:    1.4.6 
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         tags1,tag2, coloque o que achar importante aqui
@@ -142,6 +142,11 @@ eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
 # Conclusão
 
 Um tema filho nada menos é que o style.css + functions.php + index.php dentro de uma pasta na pasta theme.
+
+<strong>Observação:</strong>
+Se você atualizar o tema é preciso ir até a pasta do tema filho e editar a Version do style.css 
+para a Version que o seu tema está.
+
 Logo eu faço uma série de como instalar Woocomerce.
 
 Até logo.
