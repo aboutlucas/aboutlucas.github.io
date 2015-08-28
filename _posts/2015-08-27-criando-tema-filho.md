@@ -17,7 +17,7 @@ twitter_text: 'Put your twitter description here.'
 
 Se quiser pular a explicação e ver como ele fica ta ae: [ThemeChild](https://github.com/aboutlucas/Arquivos-do-Blog/tree/master/theme-child/).
 
-# Introdução
+## Introdução
 
 Vou usar como exemplo o [WooCommerce StoreFront](http://www.woothemes.com/storefront/), um ótimo plugin para Ecommerce, 
 chega de marketing. Tive um problema esses dias, eu tinha que alterar o rodapé storefront, aplicar alguns filtros, porém 
@@ -43,7 +43,7 @@ Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outr
 
 Depois disso crie um arquivo chamado functions.php e nele uma função para fazer com que as alterações do style.css que você copiou e modificou sejam realizadas.
 
-O <strong>functions.php</strong> fica assim:
+O `functions.php` fica assim:
 
 {% highlight php %}
 <?php
@@ -54,9 +54,11 @@ function theme_enqueue_styles() {
 ?>
 {% endhighlight php %}
 
-O functions.php é usado também para fazer algumas alterações no woocommerce, como por exemplo tirar campos, deixar como não obrigatórios, é o functions.php, ele pode customizar o seu woocommerce de acordo com você.
+O `functions.php` é usado também para fazer algumas alterações no woocommerce, como por exemplo tirar campos, deixar como não obrigatórios, é o functions.php, ele pode customizar o seu woocommerce de acordo com você.
 
-O arquivo modelo <strong>index.php</strong> fica assim:
+--
+
+O arquivo modelo `index.php` fica assim:
 
 {% highlight php %}
 <?php
@@ -93,8 +95,10 @@ get_header(); ?>
 <?php get_footer(); ?>
 {% endhighlight php %}
 
+--
+
 Agora para modificar quais quer arquivos originais do tema é só cria-los lá no filho e inserir o código, 
-eu como quero modificar o rodapé eu crio o footer.php copio o original e troco a parte que quero, no caso
+eu como quero modificar o rodapé eu crio o `footer.php` copio o original e troco a parte que quero, no caso
 eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
 
 {% highlight php %}
@@ -139,11 +143,11 @@ eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
 {% endhighlight php %}
 
 
-# Conclusão
+## Conclusão
 
-Um tema filho nada menos é que o style.css + functions.php + index.php dentro de uma pasta na pasta theme.
+Um tema filho nada menos é que o `style.css` +  `functions.php` + `index.php` dentro de uma pasta na pasta theme.
 
-<strong>Observação:</strong>
+### Observação:
 Se você atualizar o tema é preciso ir até a pasta do tema filho e editar a Version do style.css 
 para a Version que o seu tema está.
 
