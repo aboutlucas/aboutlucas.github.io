@@ -136,3 +136,9 @@ eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
 {% endhighlight php %}
 
 
+# Conclusao
+
+Um tema filho nada menos é que o style.css + functions.php + index.php dentro de uma pasta na pasta theme.
+Logo eu faço uma série de como instalar Woocomerce.
+
+Até logo.
