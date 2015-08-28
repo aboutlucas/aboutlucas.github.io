@@ -23,7 +23,7 @@ Vou usar como exemplo o [WooCommerce StoreFront](http://www.woothemes.com/storef
 chega de marketing. Tive um problema esses dias, eu tinha que alterar o rodapé storefront, aplicar alguns filtros, porém 
 não tinha como eu fazer tudo isso, tive que criar algo para que nesse algo eu pudesse fazer as alterações, o tema filho.
 
-Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outra pasta, nesse exemplo criar uma pasta chamada storefront-child para associar. Depois de cria-la é preciso copiar o cabeçalho do <strong>style.css</strong> do storefront, depois fazer algumas alterações, ficando assim:
+Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outra pasta, nesse exemplo criar uma pasta chamada storefront-child para associar. Depois de cria-la é preciso copiar o cabeçalho do `style.css` do storefront, depois fazer algumas alterações, ficando assim:
 
 {% highlight css %}
 /*
