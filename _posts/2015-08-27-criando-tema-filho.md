@@ -19,18 +19,29 @@ Se quiser pular a explicação e ver como ele fica ta ae: [ThemeChild](https://g
 
 ## Introdução
 
-Vou usar como exemplo o [WooCommerce StoreFront](http://www.woothemes.com/storefront/), um ótimo plugin para Ecommerce, 
-chega de marketing. Tive um problema esses dias, eu tinha que alterar o rodapé storefront, aplicar alguns filtros, porém 
-não tinha como eu fazer tudo isso, tive que criar algo para que nesse algo eu pudesse fazer as alterações, o tema filho.
+O [WooCommerce StoreFront](http://www.woothemes.com/storefront/), é um ótimo plugin para Ecommerce, porém para alterar algumas coisas é preciso criar um tema.
 
-Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outra pasta, nesse exemplo criar uma pasta chamada storefront-child para associar. Depois de cria-la é preciso copiar o cabeçalho do `style.css` do storefront, depois fazer algumas alterações, ficando assim:
+### Nosso Tema Filho vai precisar desses arquivos:
+
+- `style.css`
+- `rlt.css`
+- `functions.php`
+- `index.php` 
+
+** Todos eles devem estar em uma pasta dentro de theme e devem seguir o mesmo nome que os originais **
+
+---
+
+###  `style.css`
+
+Va a pasta que você criou dentro de theme e crie um arquivos chamado `style.css`, nele você inseri o código abaixo
 
 {% highlight css %}
 /*
  Theme Name:  Storefront Child
  Theme URI:    http://www.woothemes.com/storefront-child/
  Description:  WooThemes Child Theme
- Author:         Lucas Dias
+ Author:         Seu Nome
  Author URI:   http://example.com
  Template:     storefront
  Version:    1.4.6 
@@ -41,24 +52,54 @@ Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outr
 */
 {% endhighlight css %}
 
-Depois disso crie um arquivo chamado functions.php e nele uma função para fazer com que as alterações do style.css que você copiou e modificou sejam realizadas.
+Nessas linhas de comentários é necessário atualizar o Version, caso seu storefront use uma versão mais recente,
+qualquer coisa só verificar na pasta dele e ver como está.
 
-O `functions.php` fica assim:
+** Se você quiser criar um tema filho, qualquer seja o tema pai é só seguir esse processo que estou fazendo **
+** Porém nos Coméntarios devem ser alterados Template, Version, Theme URI **
+
+---
+
+###  `rlt.css`
+
+Esse arquivo é um suporte de idiomas
+
+{% highlight css %}
+/*
+Theme Name: StoreFront Child
+Template: storefront
+*/
+
+{% endhighlight css %}
+
+---
+
+###  `functions.php`
+
+A função inicial dele vai ser fazer com que as alterações efetuadas no `style.css` do tema filho sejam carregadas no tema pai
 
 {% highlight php %}
+{% end highlight php %}
+
+
+Tive um problema esses dias, eu tinha que alterar o rodapé storefront, aplicar alguns filtros, porém 
+não tinha como eu fazer tudo isso, tive que criar algo para que nesse algo eu pudesse fazer as alterações, o tema filho.
+
+Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outra pasta, nesse exemplo criar uma pasta chamada storefront-child para associar. Depois de cria-la é preciso copiar o cabeçalho do `style.css` do storefront, depois fazer algumas alterações, ficando assim:
+
+{% highlight css %}
 <?php
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 ?>
-{% endhighlight php %}
+{% endhighlight css %}
 
-O `functions.php` é usado também para fazer algumas alterações no woocommerce, como por exemplo tirar campos, deixar como não obrigatórios, é o functions.php, ele pode customizar o seu woocommerce de acordo com você.
 
---
+### `index.php`
 
-O arquivo modelo `index.php` fica assim:
+Esse é o arquivo modelo
 
 {% highlight php %}
 <?php
@@ -95,53 +136,6 @@ get_header(); ?>
 <?php get_footer(); ?>
 {% endhighlight php %}
 
---
-
-Agora para modificar quais quer arquivos originais do tema é só cria-los lá no filho e inserir o código, 
-eu como quero modificar o rodapé eu crio o `footer.php` copio o original e troco a parte que quero, no caso
-eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
-
-{% highlight php %}
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package storefront
- */
-?>
-
-		</div><!-- .col-full -->
-	</div><!-- #content -->
-
-	<?php do_action( 'storefront_before_footer' ); ?>
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="col-full">
-
-			<?php
-			/**
-			 * @hooked storefront_footer_widgets - 10
-			 * @hooked storefront_credit - 20
-			 */
-			echo "&copy; 2015 <a href=#>Ecommerce</a>. Todos os direitos reservados."; ?>
-
-		</div><!-- .col-full -->
-	</footer><!-- #colophon -->
-
-	<?php 
-		do_action( 'storefront_after_footer' );
- 	?>
-
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
-{% endhighlight php %}
-
 
 ## Conclusão
 
@@ -151,6 +145,6 @@ Um tema filho nada menos é que o `style.css` +  `functions.php` + `index.php` d
 Se você atualizar o tema é preciso ir até a pasta do tema filho e editar a Version do style.css 
 para a Version que o seu tema está.
 
-Logo eu faço uma série de como instalar Woocomerce.
+Logo eu faço uma série de como instalar WooCommerce.
 
 Até logo.
