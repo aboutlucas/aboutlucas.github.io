@@ -1,5 +1,5 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: Um blog de um desenvolvedor front end
 baseurl: "http://aboutlucas.github.io" # the subpath of your site, e.g. /blog/
 url: "http://aboutlucas.github.io" # the base hostname & protocol for your site 
 
