@@ -15,5 +15,5 @@ Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamo
 
 - Introdução a Lógica da Programção
 - Visualg
-- Exercicios
+- Exercícios
 
