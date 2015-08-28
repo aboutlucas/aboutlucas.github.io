@@ -21,14 +21,12 @@ O [WooCommerce StoreFront](http://www.woothemes.com/storefront/), é um ótimo p
 
 ### Nosso Tema Filho vai precisar desses arquivos:
 
-- `style.css`
-- `rlt.css`
-- `functions.php`
-- `index.php` 
+- style.css
+- rlt.css
+- functions.php
+- index.php
 
 **Todos eles devem estar em uma pasta dentro de theme e devem seguir o mesmo nome que os originais**
-
----
 
 ### style.css
 
@@ -56,8 +54,6 @@ qualquer coisa só verificar na pasta dele e ver como está.
 **Se você quiser criar um tema filho, qualquer seja o tema pai é só seguir esse processo que estou fazendo**
 **Porém nos Coméntarios devem ser alterados Template, Version, Theme URI**
 
----
-
 ### rlt.css
 
 Esse arquivo é um suporte de idiomas
@@ -68,8 +64,6 @@ Theme Name: StoreFront Child
 Template: storefront
 */
 {% endhighlight css %}
-
----
 
 ### functions.php
 
@@ -82,7 +76,7 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 ?>
-{% end highlight php %}
+{% endhighlight php %}
 
 ### index.php
 
@@ -122,7 +116,6 @@ get_header(); ?>
 <?php do_action( 'storefront_sidebar' ); ?>
 <?php get_footer(); ?>
 {% endhighlight php %}
-
 
 ## Conclusão
 
