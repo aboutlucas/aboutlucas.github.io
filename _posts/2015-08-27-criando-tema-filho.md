@@ -5,13 +5,11 @@ date: 2015-08-27 20:51:00
 image: '/assets/img/'
 description: 'Como criar o theme child do StoreFront'
 tags:
-- Wordpress
 - Theme
 - StoreFront
 - WooCommerce
 categories:
 - Wordpress
-- WooCommerce
 twitter_text: 'Put your twitter description here.'
 ---
 
@@ -28,11 +26,11 @@ O [WooCommerce StoreFront](http://www.woothemes.com/storefront/), é um ótimo p
 - `functions.php`
 - `index.php` 
 
-** Todos eles devem estar em uma pasta dentro de theme e devem seguir o mesmo nome que os originais **
+**Todos eles devem estar em uma pasta dentro de theme e devem seguir o mesmo nome que os originais**
 
 ---
 
-###  `style.css`
+### `style.css`
 
 Va a pasta que você criou dentro de theme e crie um arquivos chamado `style.css`, nele você inseri o código abaixo
 
@@ -55,12 +53,12 @@ Va a pasta que você criou dentro de theme e crie um arquivos chamado `style.css
 Nessas linhas de comentários é necessário atualizar o Version, caso seu storefront use uma versão mais recente,
 qualquer coisa só verificar na pasta dele e ver como está.
 
-** Se você quiser criar um tema filho, qualquer seja o tema pai é só seguir esse processo que estou fazendo **
-** Porém nos Coméntarios devem ser alterados Template, Version, Theme URI **
+**Se você quiser criar um tema filho, qualquer seja o tema pai é só seguir esse processo que estou fazendo**
+**Porém nos Coméntarios devem ser alterados Template, Version, Theme URI**
 
 ---
 
-###  `rlt.css`
+### `rlt.css`
 
 Esse arquivo é um suporte de idiomas
 
@@ -69,33 +67,22 @@ Esse arquivo é um suporte de idiomas
 Theme Name: StoreFront Child
 Template: storefront
 */
-
 {% endhighlight css %}
 
 ---
 
-###  `functions.php`
+### `functions.php`
 
 A função inicial dele vai ser fazer com que as alterações efetuadas no `style.css` do tema filho sejam carregadas no tema pai
 
 {% highlight php %}
-{% end highlight php %}
-
-
-Tive um problema esses dias, eu tinha que alterar o rodapé storefront, aplicar alguns filtros, porém 
-não tinha como eu fazer tudo isso, tive que criar algo para que nesse algo eu pudesse fazer as alterações, o tema filho.
-
-Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outra pasta, nesse exemplo criar uma pasta chamada storefront-child para associar. Depois de cria-la é preciso copiar o cabeçalho do `style.css` do storefront, depois fazer algumas alterações, ficando assim:
-
-{% highlight css %}
 <?php
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 ?>
-{% endhighlight css %}
-
+{% end highlight php %}
 
 ### `index.php`
 
