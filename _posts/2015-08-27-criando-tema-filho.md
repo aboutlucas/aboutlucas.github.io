@@ -12,6 +12,8 @@ categories:
 twitter_text: 'Put your twitter description here.'
 ---
 
+Para quem esta começando um tema filho(theme child) é usado para fazer alterações, essas são aquelas que é necessário ir até o código, e, não as que você faz quando clica em customizar. Já que uma vez alterado direto no código sem criar um tema filho corre o risco de ser perder o dominío ou ser processados por causa dos direitos autorias, geralmente você os encontra no arquivo style.css na parte do cabeçalho.
+
 Se quiser pular a explicação e ver como ele fica ta ae : [Theme Child](https://github.com/aboutlucas/loja/tree/master/).
 Senão é uma coisa bem rápida de se fazer, tem algumas observações que você precisa está ciente, vamos começar.
 
