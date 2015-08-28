@@ -19,13 +19,14 @@ Vá até a pasta theme, nela crie uma nomeie como quiser, nesta pasta você deve
 Os arquivos principais que devem ser passados para não gerar nenhum problema são:
 
 - Style.css
+- Rtl.css
 - Index.php
 - Functions.php
 
 O [wordpress](https://codex.wordpress.org/Child_Themes/) tem um exemplo de como criar, só estou repassando com algumas coisas importantes.
 O style.css que você passou para a sua pasta apague tudo e deixe só o cabeçalho, se tirar o cabeçalho o wordpress não vai reconhecer que é um
 tema filho pois não tem a descrição do tema.
-Um exemplo de como fica o Style.css:
+Um exemplo de como fica o style.css:
 
 {% highlight css %}
 /*
@@ -40,6 +41,15 @@ Um exemplo de como fica o Style.css:
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
+*/
+{% endhighlight %}
+
+Um exemplo do rtl.css:
+
+{% highlight css%}
+/*
+Theme Name: Twenty Fourteen Child
+Template: twentyfourteen
 */
 {% endhighlight %}
 
