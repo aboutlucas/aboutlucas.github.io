@@ -30,7 +30,7 @@ O [WooCommerce StoreFront](http://www.woothemes.com/storefront/), é um ótimo p
 
 ---
 
-### `style.css`
+### style.css
 
 Va a pasta que você criou dentro de theme e crie um arquivos chamado `style.css`, nele você inseri o código abaixo
 
@@ -58,7 +58,7 @@ qualquer coisa só verificar na pasta dele e ver como está.
 
 ---
 
-### `rlt.css`
+### rlt.css
 
 Esse arquivo é um suporte de idiomas
 
@@ -71,7 +71,7 @@ Template: storefront
 
 ---
 
-### `functions.php`
+### functions.php
 
 A função inicial dele vai ser fazer com que as alterações efetuadas no `style.css` do tema filho sejam carregadas no tema pai
 
@@ -84,7 +84,7 @@ function theme_enqueue_styles() {
 ?>
 {% end highlight php %}
 
-### `index.php`
+### index.php
 
 Esse é o arquivo modelo
 
