@@ -40,7 +40,7 @@ Para criar um tema filho, é necessário ir a pasta theme, depois criar uma outr
 
 Depois disso crie um arquivo chamado functions.php e nele uma função para fazer com que as alterações do style.css que você copiou e modificou sejam realizadas.
 
-<strong>functions.php</strong> fica assim:
+O <strong>functions.php</strong> fica assim:
 
 {% highlight php %}
 <?php
@@ -136,7 +136,7 @@ eu quero alterar a frase do rodapé para outra coisa, o resultado é esse:
 {% endhighlight php %}
 
 
-# Conclusao
+# Conclusão
 
 Um tema filho nada menos é que o style.css + functions.php + index.php dentro de uma pasta na pasta theme.
 Logo eu faço uma série de como instalar Woocomerce.
