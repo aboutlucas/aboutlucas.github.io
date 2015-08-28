@@ -1,14 +1,17 @@
 ---
 layout: post
-title: "Criando Tema Filho do Wordpress"
+title: "Criando Tema Filho do StoreFront"
 date: 2015-08-27 20:51:00
 image: '/assets/img/'
-description: 'Como criar o theme child no wordpress'
+description: 'Como criar o theme child do StoreFront'
 tags:
-- wordpress
-- theme
+- Wordpress
+- Theme
+- StoreFront
+- WooCommerce
 categories:
 - Wordpress
+- WooCommerce
 twitter_text: 'Put your twitter description here.'
 ---
 
