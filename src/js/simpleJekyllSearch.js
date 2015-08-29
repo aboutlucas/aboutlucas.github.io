@@ -7,7 +7,7 @@
             searchResults   : '.search-results',
             searchResultsTitle   : '<h4>Resultados da Pesquisa:</h4>',
             limit           : '5',
-            noResults       : '<p>Oh, Desculpe!<br/><small>Nada encontrado! :(</small></p>'
+            noResults       : '<p>Oh desculpe!<br/><small>Nada encontrado! :(</small></p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
