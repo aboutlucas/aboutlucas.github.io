@@ -1,4 +1,4 @@
-# aboutlucas.github.io
+# Lucas Moraes
 
-Repositório online para Jekyll e seus posts, se quiser ver eles
-segue o link :D
+[Tema](https://github.com/willianjusten/will-jekyll-template/),
+[Autor](https://github.com/willianjusten/);
