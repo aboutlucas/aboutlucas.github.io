@@ -39,12 +39,10 @@ Nosso programa é inteligente, conseguimos fazer com que certo caracterer faça 
 mas para isso precisamos criar variáveis que são palavavras para armazenar informações de números e caracteres.
 
 Números:
-
 - Inteiro (Inteiro)
 - Real (Número com Virgula)
 
 String:
-
 - Caracter
 
 ### Declarando uma variável
