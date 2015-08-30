@@ -13,7 +13,7 @@ twitter_text: 'Put your twitter description here.'
 ---
 Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamos ver:
 
-- Introdução a Lógica da Programção
-- Visualg
-- Exercícios
+- [Introdução a Lógica da Programção](#/)
+- [Visualg](#/)
+- [Exercícios](#/)
 
