@@ -110,6 +110,8 @@ Legal né?
 Usando condições fica mais interessante ainda, deixa nosso programa mais inteligente.
 
 
+## Conclusão
 
-
+O que acabamos de fazer foi um algoritmo, fizemos com que o nosso programa armazenasse o nome  e idade, depois escrevesse nosso nome e idade.
+Agora para deixar ele mais inteligente veja  a [parte 2](/).
 
