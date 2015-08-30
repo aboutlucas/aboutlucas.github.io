@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Criando Tema Filho no Wordpress.'
 ---
 
-Se quiser pular a explicação e ver como ele fica ta ae: [ThemeChild](https://github.com/aboutlucas/Arquivos-do-Blog/tree/master/theme-child/).
+Se quiser pular a explicação e ver como ele fica ta ae: [StoreFront Child](https://github.com/aboutlucas/Arquivos-do-Blog/tree/master/StoreFront-Child/).
 
 ## Introdução
 
