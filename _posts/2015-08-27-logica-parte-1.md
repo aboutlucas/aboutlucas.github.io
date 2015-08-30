@@ -38,11 +38,11 @@ Caso fique perdido veja a documentação do [Visualg](/).
 Nosso programa é inteligente, conseguimos fazer com que certo caracterer faça coisas incríveis assim como os números,
 mas para isso precisamos criar variáveis que são palavavras para armazenar informações de números e caracteres.
 
-Números:
+Números
 - Inteiro (Inteiro)
 - Real (Número com Virgula)
 
-String:
+Caracteres
 - Caracter
 
 ### Declarando uma variável
