@@ -1,5 +1,5 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: Um blog de um desenvolvedor front end
 baseurl: "http://aboutlucas.github.io" # the subpath of your site, e.g. /blog/
 url: "http://aboutlucas.github.io" # the base hostname & protocol for your site 
 
@@ -10,7 +10,7 @@ user_title: Desenvolvedor Front End
 email: lucasdmwork@gmail.com
 twitter_username: lorem_ipsum
 github_username:  aboutlucas
-gplus_username:  lucasdmwork
+gplus_username:  116241062765224093973
 disqus_username: ulucas
 
 # Build settings
@@ -35,7 +35,7 @@ links:
     url: /series
   - title: Tags
     url: /tags
-  - title: About Me
+  - title: Sobre
     url: /about
 
 # exclude my node related stuff
