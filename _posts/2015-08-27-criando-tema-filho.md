@@ -10,7 +10,7 @@ tags:
 - WooCommerce
 categories:
 - Wordpress
-twitter_text: 'Put your twitter description here.'
+twitter_text: 'Criando Tema Filho no Wordpress.'
 ---
 
 Se quiser pular a explicação e ver como ele fica ta ae: [ThemeChild](https://github.com/aboutlucas/Arquivos-do-Blog/tree/master/theme-child/).
