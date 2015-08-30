@@ -39,11 +39,13 @@ Nosso programa é inteligente, conseguimos fazer com que certo caracterer faça 
 mas para isso precisamos criar variáveis que são palavavras para armazenar informações de números e caracteres.
 
 Números:
- - Inteiro (Inteiro)
- - Real (Número com Virgula)
+
+- Inteiro (Inteiro)
+- Real (Número com Virgula)
 
 String:
- - Caracter
+
+- Caracter
 
 ### Declarando uma variável
 Para declarar uma variável no [visualg](#/) que vai ser o nosso programa de teste de nossos programas fazemos assim:
