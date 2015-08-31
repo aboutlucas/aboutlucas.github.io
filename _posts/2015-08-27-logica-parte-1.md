@@ -14,7 +14,7 @@ twitter_text: 'Lógica da Programação Parte 1.'
 Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamos ver:
 
 - [Introdução a Lógica da Programção](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/Apostila-de-Logica-de-Programacao.pdf/)
-- [Visualg Download](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/visualg.zip/)
+- [Visualg Download](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/visualg.zip?raw=true)
 - [Linguagem Visualg](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/UDESC_Apostila_sobre_Visualg_2011.pdf/)
 - [Linguagem Visualg](http://www.cefetsp.br/edu/adolfo/disciplinas/lpro/materiais/Linguagem_Visualg2.0.pdf/)
 - [Exercícios](http://partilho.com.br/visualg/exercicios-visualg/visualg-lista-de-exercicios/)
