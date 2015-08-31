@@ -13,15 +13,15 @@ twitter_text: 'Lógica da Programação Parte 1.'
 ---
 Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamos ver:
 
-- [Introdução a Lógica da Programção](#/)
-- [Visualg](#/)
+- [Introdução a Lógica da Programção](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/Apostila-de-Logica-de-Programacao.pdf/)
+- [Visualg](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/visualg.zip/)
+- [Visualg - Documentação](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/UDESC_Apostila_sobre_Visualg_2011.pdf/)
 - [Exercícios](#/)
 
 
 ## Introdução
 
 Para criar um programa é necessário criar condições, espaço para armazenar informações e fazer o controle deles.
-Caso fique perdido veja a documentação do [Visualg](/).
 
 ### Condições
 
@@ -48,7 +48,7 @@ Caracteres
 - Caracter
 
 ### Declarando uma variável
-Para declarar uma variável no [visualg](#/) que vai ser o nosso programa de teste de nossos programas fazemos assim:
+Para declarar uma variável no [visualg](https://pt.wikipedia.org/wiki/Visualg/) que vai ser o nosso programa de teste de nossos programas fazemos assim:
 
 {% highlight sh %}
 nome: caracter
