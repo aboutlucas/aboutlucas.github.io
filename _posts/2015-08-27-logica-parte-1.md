@@ -50,7 +50,7 @@ Caracteres
 - Caracter: Lucas, Comida, Pao
 
 ### Declarando uma variável
-Para declarar uma variável no [visualg](https://pt.wikipedia.org/wiki/Visualg/) que vai ser o nosso programa de teste de nossos programas fazemos assim:
+Para declarar uma variável no [visualg](https://pt.wikipedia.org/wiki/Visualg) que vai ser o nosso programa de teste de nossos programas fazemos assim:
 
 {% highlight sh %}
 nome: caracter
