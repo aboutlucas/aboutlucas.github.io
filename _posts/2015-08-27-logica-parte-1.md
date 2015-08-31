@@ -42,12 +42,12 @@ mas para isso precisamos criar variáveis que são palavavras para armazenar inf
 
 Números
 
-- Inteiro (Inteiro)
-- Real (Número com Virgula)
+- Inteiro (Inteiro): 1 2 3 4 5
+- Real (Número com Virgula): 0,1 5,8 1,22
 
 Caracteres
 
-- Caracter
+- Caracter: Lucas, Comida, Pao
 
 ### Declarando uma variável
 Para declarar uma variável no [visualg](https://pt.wikipedia.org/wiki/Visualg/) que vai ser o nosso programa de teste de nossos programas fazemos assim:
@@ -89,7 +89,7 @@ fimalgoritmo
 
 ### O que aconteceu?
 
-Já tinhamos as nossas variáveis mais tinhamos que fazer com que aparecesse algo na tela para ai sim armazenar as informações que queriamos, mais para isso precisavamos que aparecesse isso na tela, então usamos o escreva para escrever "Escreva seu nome", assim como para a idade, e para armazenar ambas informações usamos o leia().
+Já tinhamos as nossas variáveis mais tinhamos que fazer com que aparecesse algo na tela para ai sim armazenar as informações que queriamos, mais para isso precisavamos que aparecesse isso na tela, então usamos o escreva para escrever **"Escreva seu nome"**, assim como para a idade, e para armazenar ambas informações usamos o **leia()**.
 Agora podemos fazer o controle das informações veja.
 
 {% highlight sh %}
