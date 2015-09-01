@@ -83,7 +83,7 @@ inicio
    escreva("Escreva seu nome: ")
    leia(nome)
    escreva("Escreva sua idade:")
-   leia(inteiro)
+   leia(idade)
 fimalgoritmo
 {% endhighlight sh %}
 
@@ -105,7 +105,7 @@ inicio
    escreva("Escreva seu nome: ")
    leia(nome)
    escreva("Escreva sua idade:")
-   leia(inteiro)
+   leia(idade)
    escreva("Seu nome é: ",nome, "e sua idade é: ",idade)
 fimalgoritmo
 {% endhighlight sh %}
