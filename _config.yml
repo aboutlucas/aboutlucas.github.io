@@ -1,7 +1,7 @@
 # Site settings
 description: Um blog de um desenvolvedor front end
-baseurl: "http://aboutlucas.github.io" # the subpath of your site, e.g. /blog/
-url: "http://aboutlucas.github.io" # the base hostname & protocol for your site 
+baseurl: "http://blog.aboutlucas.com.br" # the subpath of your site, e.g. /blog/
+url: "http://blog.aboutlucas.com.br" # the base hostname & protocol for your site 
 
 # User settings
 username: Lucas Moraes
