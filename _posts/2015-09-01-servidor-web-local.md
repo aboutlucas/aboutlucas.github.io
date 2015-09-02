@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criar seu Servidor Web Local"
-date: 2015-08-27 20:38:35
+date: 2015-09-01 22:13:10
 image: '/assets/img/'
 description: 'Criando um servidor local para fazer testes com mysql e php.'
 tags:
