@@ -14,12 +14,11 @@ categories:
 twitter_text: 'Criando um servidor local para fazer testes com mysql e php.'
 ---
 
-## Intrudução
+## Introdução
 
-Para fazermos testes com php e mysql é necessário ter um host e uma base de dados.
-Nesse post vou explicar os passos de como criar um localhost usando o [XAMPP](#/).
+Para fazer testes com php e mysql é necessário ter um host e uma base de dados.
+Nesse post vou explicar os passos de como cria-los localmente  usando o [XAMPP](#/).
 
-Mais a frente faço outro post instalando tudo manualmente.
 
 ### Instalando o XAMPP
 
