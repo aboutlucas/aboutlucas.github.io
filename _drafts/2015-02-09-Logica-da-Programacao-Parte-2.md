@@ -14,7 +14,7 @@ categories:
 twitter_text: 'Práticando aos poucos'
 ---
 
-## introdução
+## Introdução
 
 Só falar de nada vale escrevendo aos poucos o programa leva a um entendimento mais rápido.
 
