@@ -5,10 +5,8 @@ date: 2015-09-01 22:13:10
 image: '/assets/img/'
 description: 'Criando um servidor local para fazer testes com mysql e php.'
 tags:
-- localhost
-- Php
-- Mysql
-- programacao
+- Servidor Local
+- Começando
 categories:
 - Localhost
 twitter_text: 'Criando um servidor local para fazer testes com mysql e php.'
