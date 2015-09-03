@@ -5,10 +5,10 @@ date: 2015-08-27 20:38:35
 image: '/assets/img/'
 description: 'Uma introdução ao que você precisa para continuar.'
 tags:
-- logica
-- programacao
+- Pseudocódigo 
+- Algoritmo
 categories:
-- Logica da Programacao
+- Lógica da Programação
 twitter_text: 'Lógica da Programação Parte 1.'
 ---
 Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamos ver:
