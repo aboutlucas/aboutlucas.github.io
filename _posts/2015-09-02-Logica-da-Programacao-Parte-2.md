@@ -10,7 +10,7 @@ tags:
 - Visualg
 - Exercícios
 categories:
-- Logica da Programacao
+- Logica da Programação
 twitter_text: 'Práticando aos poucos'
 ---
 
