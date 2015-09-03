@@ -7,6 +7,8 @@ description: 'Uma introdução ao que você precisa para continuar.'
 tags:
 - Pseudocódigo 
 - Algoritmo
+- Visualg
+- Requisitos
 categories:
 - Lógica da Programação
 twitter_text: 'Lógica da Programação Parte 1.'
