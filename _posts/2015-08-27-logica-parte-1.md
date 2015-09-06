@@ -39,20 +39,25 @@ Para criar um programa é necessário criar condições, espaço para armazenar 
  
 Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fechadas,
 
-Exemplos:
+**Exemplos:**
 
-   Se 
-   Senao
-   FimSe
+  Se 
+  
+  Senao
+  
+  FimSe
    
-   Enquanto
-   FimEnquanto
+  Enquanto
+  
+  FimEnquanto
    
-   Escolha
-   FimEscolha
+  Escolha
+  
+  FimEscolha
    
-   Procedimento
-   FimProcedimento
+  Procedimento
+  
+  FimProcedimento
    
 Para dúvidas de como devem ser fechadas consulte a [documentação do visualg](https://raw.githubusercontent.com/aboutlucas/Arquivos-do-Blog/513eb7bc2be1de1fd6b5067dea843794f9eec686/series/logica/UDESC_Apostila_sobre_Visualg_2011.pdf).
 
