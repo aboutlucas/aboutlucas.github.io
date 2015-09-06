@@ -25,7 +25,65 @@ Se quiser pular para o que mais necessita nesse momento, segue abaixo o que vamo
 
 ## Introdução
 
-Para criar um programa é necessário criar condições, espaço para armazenar informações e fazer o controle deles.
+Os programas que vemos são feitos a partir de uma lógica onde as coisas acontecem passo a passo.
+Vamos vermos como as coisas acontecem passo a passo através do [Visualg](https://github.com/aboutlucas/Arquivos-do-Blog/blob/master/series/logica/visualg.zip?raw=true), que tem a sequinte estrutura:
+
+{% highlight sh %}
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 
+// Seção de Declarações 
+inicio
+// Seção de Comandos 
+fimalgoritmo
+{% endhighlight sh %}
+
+A primeira linha é composta pela palavra-chave `algoritmo` seguida do seu nome delimitado por aspas duplas. Este nome será usado como título nas janelas de leitura de dados. A seção que se segue é a de declaração de variáveis, que termina com a linha que contém a palavra-chave `inicio`. Deste ponto em diante está a `seção de comandos`, que continua até a linha em que se encontre a palavra-chave `fimalgoritmo`. Esta última linha marca o final do pseudocódigo: todo texto existente a partir dela é ignorado pelo interpretador.
+
+O VisuAlg permite a inclusão de comentários: qualquer texto precedido de `"//"` é ignorado, até se atingir o final da sua linha. Por este motivo, os comentários não se estendem por mais de uma linha: quando se deseja escrever comentários mais longos, que ocupem várias linhas, cada uma delas deverá começar por `"//"`.
+
+
+### Tipos de Dados
+
+O VisuAlg prevê quatro tipos de dados: inteiro, real, cadeia de caracteres e lógico (ou booleano). As palavras-chave que os definem são as seguintes (observe que elas não têm acentuação):
+
+*  inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
+*  real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
+*  caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
+*  logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
+
+### Nomes de Variáveis e sua Declaração
+
+{% highlight sh %}
+var a: inteiro
+    Valor1, Valor2: real
+    vet: vetor [1..10] de real
+    matriz: vetor [0..4,8..10] de inteiro
+    nome_do_aluno: caractere
+    sinalizador: logico
+    
+{% endhighlight sh %}
+
+### Constantes e Comando de Atribuição
+
+O VisuAlg tem três tipos de constantes:
+
+   * Numéricos: são valores numéricos escritos na forma usual das linguagens de programação. Podem ser inteiros ou reais.       * Neste último caso, o separador de decimais é o ponto e não a vírgula, independente da configuração regional do               computador onde o VisuAlg está sendo executado. O VisuAlg também não suporta separadores de milhares.
+   * Caracteres: qualquer cadeia de caracteres delimitada por aspas duplas (").
+   * Lógicos: admite os valores VERDADEIRO ou FALSO.
+   * 
+   
+{% highlight sh %}
+   a <- 3
+   Valor1 <- 1.5
+   Valor2 <- Valor1 + a
+   vet[1] <- vet[1] + (a * 3)
+   matriz[3,9] <- a/4 - 5
+   nome_do_aluno <- "José da Silva"
+   sinalizador <- FALSO
+{% endhighlight sh %}
+
 
 ### Condições
 
@@ -58,8 +116,6 @@ Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fec
   Procedimento
   
   FimProcedimento
-   
-Para dúvidas de como devem ser fechadas consulte a [documentação do visualg](https://raw.githubusercontent.com/aboutlucas/Arquivos-do-Blog/513eb7bc2be1de1fd6b5067dea843794f9eec686/series/logica/UDESC_Apostila_sobre_Visualg_2011.pdf).
 
 ### Váriáveis
 
@@ -91,7 +147,16 @@ facíl de se entender. Assim como idade que vai armazenar a nossa idade que é d
 
 Ao entrar no Visualg vemos essa tela:
 
-...
+{% highlight sh %}
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 
+// Seção de Declarações 
+inicio
+// Seção de Comandos 
+fimalgoritmo
+{% endhighlight sh %}
 
 Em algoritmo as informações de nosso programa, em **var** colocamos as nossas variáveis, e começamos a lógica de nosso programa em inicio não podendo escrever algo depois de fimalgoritmo, se escrever algo depois de fimalgoritmo vai resultar em erro na execução.
 
