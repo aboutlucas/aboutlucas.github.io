@@ -37,7 +37,7 @@ Para criar um programa é necessário criar condições, espaço para armazenar 
  - Escolha
  - Procedimento
  
-Esses são o inicio delas, não precisam seguir essa ordem mais devem ser fechadas,
+Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fechadas,
 
 Exemplos:
 
