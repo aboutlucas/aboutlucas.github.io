@@ -31,12 +31,31 @@ Para criar um programa é necessário criar condições, espaço para armazenar 
 
  - Se
  - Senao
- - Para [x] de [y] ate [z] facapro
+ - Para [x] de [y] ate [z] faca
  - Repita
  - Enquanto
  - Escolha
  - Procedimento
  
+Esses são o inicio delas, não precisam seguir essa ordem mais devem ser fechadas,
+
+Exemplos:
+
+   Se 
+   Senao
+   FimSe
+   
+   Enquanto
+   FimEnquanto
+   
+   Escolha
+   FimEscolha
+   
+   Procedimento
+   FimProcedimento
+   
+Para dúvidas de como devem ser fechadas consulte a [documentação do visualg](https://raw.githubusercontent.com/aboutlucas/Arquivos-do-Blog/513eb7bc2be1de1fd6b5067dea843794f9eec686/series/logica/UDESC_Apostila_sobre_Visualg_2011.pdf).
+
 ### Váriáveis
 
 Nosso programa é inteligente, conseguimos fazer com que certo caracterer faça coisas incríveis assim como os números,
