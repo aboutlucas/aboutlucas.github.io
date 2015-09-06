@@ -43,48 +43,6 @@ A primeira linha é composta pela palavra-chave `algoritmo` seguida do seu nome 
 
 O VisuAlg permite a inclusão de comentários: qualquer texto precedido de `"//"` é ignorado, até se atingir o final da sua linha. Por este motivo, os comentários não se estendem por mais de uma linha: quando se deseja escrever comentários mais longos, que ocupem várias linhas, cada uma delas deverá começar por `"//"`.
 
-
-### Tipos de Dados
-
-O VisuAlg prevê quatro tipos de dados: inteiro, real, cadeia de caracteres e lógico (ou booleano). As palavras-chave que os definem são as seguintes (observe que elas não têm acentuação):
-
-*  inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
-*  real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
-*  caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
-*  logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
-
-### Nomes de Variáveis e sua Declaração
-
-{% highlight sh %}
-var a: inteiro
-    Valor1, Valor2: real
-    vet: vetor [1..10] de real
-    matriz: vetor [0..4,8..10] de inteiro
-    nome_do_aluno: caractere
-    sinalizador: logico
-    
-{% endhighlight sh %}
-
-### Constantes e Comando de Atribuição
-
-O VisuAlg tem três tipos de constantes:
-
-   * Numéricos: são valores numéricos escritos na forma usual das linguagens de programação. Podem ser inteiros ou reais.       * Neste último caso, o separador de decimais é o ponto e não a vírgula, independente da configuração regional do               computador onde o VisuAlg está sendo executado. O VisuAlg também não suporta separadores de milhares.
-   * Caracteres: qualquer cadeia de caracteres delimitada por aspas duplas (").
-   * Lógicos: admite os valores VERDADEIRO ou FALSO.
-   * 
-   
-{% highlight sh %}
-   a <- 3
-   Valor1 <- 1.5
-   Valor2 <- Valor1 + a
-   vet[1] <- vet[1] + (a * 3)
-   matriz[3,9] <- a/4 - 5
-   nome_do_aluno <- "José da Silva"
-   sinalizador <- FALSO
-{% endhighlight sh %}
-
-
 ### Condições
 
  - Se
