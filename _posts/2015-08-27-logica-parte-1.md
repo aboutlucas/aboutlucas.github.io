@@ -44,7 +44,7 @@ A primeira linha é composta pela palavra-chave `algoritmo` seguida do seu nome 
 O VisuAlg permite a inclusão de comentários: qualquer texto precedido de `"//"` é ignorado, até se atingir o final da sua linha. Por este motivo, os comentários não se estendem por mais de uma linha: quando se deseja escrever comentários mais longos, que ocupem várias linhas, cada uma delas deverá começar por `"//"`.
 
 ### Condições
-
+{% highlight sh %}
  - Se
  - Senao
  - Para [x] de [y] ate [z] faca
@@ -52,11 +52,11 @@ O VisuAlg permite a inclusão de comentários: qualquer texto precedido de `"//"
  - Enquanto
  - Escolha
  - Procedimento
- 
+ {% endhighlight sh %}
 Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fechadas,
 
 **Exemplos:**
-
+{% highlight sh %}
   Se 
   
   Senao
@@ -74,6 +74,7 @@ Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fec
   Procedimento
   
   FimProcedimento
+{% endhighlight sh %}
 
 ### Váriáveis
 
