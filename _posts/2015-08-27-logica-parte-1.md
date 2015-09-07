@@ -45,35 +45,35 @@ O VisuAlg permite a inclusão de comentários: qualquer texto precedido de `"//"
 
 ### Condições
 {% highlight sh %}
- - Se
- - Senao
- - Para [x] de [y] ate [z] faca
- - Repita
- - Enquanto
- - Escolha
- - Procedimento
- {% endhighlight sh %}
+Se
+Senao
+Para [x] de [y] ate [z] faca
+Enquanto
+Escolha
+Procedimento
+{% endhighlight sh %}
+
 Esses são os inícios delas, não precisam seguir essa ordem mais devem ser fechadas,
 
 **Exemplos:**
 {% highlight sh %}
-  Se 
-  
-  Senao
-  
-  FimSe
-   
-  Enquanto
-  
-  FimEnquanto
-   
-  Escolha
-  
-  FimEscolha
-   
-  Procedimento
-  
-  FimProcedimento
+Se 
+
+Senao
+
+FimSe
+ 
+Enquanto
+ 
+FimEnquanto
+ 
+Escolha
+
+FimEscolha
+ 
+Procedimento
+ 
+FimProcedimento
 {% endhighlight sh %}
 
 ### Váriáveis
