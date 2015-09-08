@@ -38,7 +38,7 @@ Passos:
 
 6 - Inicie o XAMPP e nele inicie Apache e Mysql.
 
-Feito isso acesse [localhost](http://localhost/) em seu browser.
+Feito isso acesse [http://localhost/](http://localhost/) em seu browser.
 
 ## Conclusão
 
