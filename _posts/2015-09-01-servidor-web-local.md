@@ -27,10 +27,15 @@ Escolha conforme seu sistema operacional,
 Passos:
 
 1 - Selecione idioma
+
 2 - Escolha o diretório
+
 3 - Aguarde
+
 4 - Selecione Serviços - Desmarque Filezila
+
 5 - Aguarde
+
 6 - Inicie o XAMPP e nele inicie Apache e Mysql.
 
 Feito isso acesso localhost/ em seu browser.
