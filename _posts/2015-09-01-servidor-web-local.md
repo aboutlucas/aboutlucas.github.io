@@ -33,6 +33,8 @@ Passos:
 5 - Aguarde
 6 - Inicie o XAMPP e nele inicie Apache e Mysql.
 
+Feito isso acesso localhost/ em seu browser.
+
 ## Conclusão
 
 Agora que você já tem um local para teste de seus programas e um local para armazenar dados tem o [PHP do Jeito Certo](http://br.phptherightway.com), 
