@@ -3,13 +3,13 @@ layout: post
 title: "Criar seu Servidor Web Local"
 date: 2015-09-01 22:13:10
 image: '/assets/img/'
-description: 'Criando um servidor local para fazer testes com mysql e php.'
+description: 'Criando um servidor local para fazer testes com Mysql e PHP.'
 tags:
 - Servidor Local
 - Começando
 categories:
 - Localhost
-twitter_text: 'Criando um servidor local para fazer testes com mysql e php.'
+twitter_text: 'Criando um servidor local para fazer testes com Mysql e PHP.'
 ---
 
 ## Introdução
