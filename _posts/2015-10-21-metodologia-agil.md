@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Criando Tema Filho do StoreFront"
+title: "Metodologia Ágil"
 date: 2015-10-21 22:08:00
 image: '/assets/img/'
-description: 'Metodologia Ágil'
+description: 'Scrum'
 tags:
 - Scrum
 - Planejamento
