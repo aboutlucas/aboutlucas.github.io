@@ -30,10 +30,7 @@ Então não perca tempo, de uma olhada nos frameworks mais utlizados e comece a 
 
 Claro para ter uma boa impressão é bom ter um site optimizado.
 
-Fora o site optimizado, em seu portfólio deve ter:
-  - Um Ecommerce (Utilize WooComerce)
-  - Um blog (Wordpress)
-  - Um Site+Blog(Wordpress)
+Fora o site optimizado, em seu portfólio deve ter: projetos que foram utilizados frameworks, e projetos feito do 0.
 
 Se os temas utilizados nos itens listados acima, foi você que fez a vaga já é sua.
 
