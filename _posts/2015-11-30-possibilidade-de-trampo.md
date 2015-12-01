@@ -14,7 +14,7 @@ twitter_text: 'Possibilidade de trampo #1.'
 
 ## Introdução
 
-Se você quer fatorar e está desempregrado, uma boa é virar um homeoffice, prestar serviços em casa, ter um cafezinho do lado...
+Se você quer faturar e está desempregrado, uma boa é virar um homeoffice, prestar serviços em casa, ter um cafezinho do lado...
 Claro existem prazos que devem ser cumpridos, não cause uma má impressão inicial. 
 
 Se você está fazendo parte de algum projeto para alguma agência, se fizer um bom serviço inicial é claro que ela passará para outras,
