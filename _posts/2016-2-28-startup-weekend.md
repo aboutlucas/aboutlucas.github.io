@@ -100,7 +100,7 @@ Depois disso ficamos até 11: 30 bolando a ideia ahaha.
  Experiencia única a forma como vamos resolvendo os problemas, a opnião nem sempre fecha, teve times que se desfizeram, por conta     disso.
  Recomendo a todos.
  
-## Dicado
+## Dica
 Em uma conversa que tive, para o pitch ser massa não precisa decorar, fala explica em 45 - 60 segundos, ser for algo que mude o jeito 
 de viver de um dia para o outro, você ganhou.
 E claro, troque opniões quanto mais melhor.
