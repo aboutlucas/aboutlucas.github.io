@@ -66,6 +66,7 @@ Depois disso ficamos até 11: 30 bolando a ideia ahaha.
   
 ### Palestra de Canvas
   O Anderson(CTO e sócio do ContaAzul), nos deixou bem claro, para o APP ser viável deve entrar na rotina da pessoas.
+  Devemos sair da nossa zona de conforto!
 
 ### MVP
   Fizemos uma landing page, com um formulário para contato, creio que a forma mais viável.
