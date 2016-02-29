@@ -95,6 +95,12 @@ Depois disso ficamos até 11: 30 bolando a ideia ahaha.
 
 ### Meio Resolvido
   Em cima da hora, modificamos o slide, faltava 2min para entregar e depois um outro membro ficou ensaiando o pitch.
+
+### Pitch 3 minutos
+  Chegou a hora, eu que não ia apresentar já estava nervoso ahahaha, imagina quem ia apresentar?
+  Quando o jurado perguntava tinha que ter a resposta na ponta  da língua. Tinha casos de que a pessoa ficava treinando direto,
+  decorava o pitch, chegava na hora dava um branco, mas como é em time outro assumia.
+  Em nosso pitch faltou filtrar um pouco mais a ideia.
   
 ## Conclusão
  Experiencia única a forma como vamos resolvendo os problemas, a opnião nem sempre fecha, teve times que se desfizeram, por conta     disso.
