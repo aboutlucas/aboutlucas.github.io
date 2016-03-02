@@ -91,8 +91,7 @@ Mesmo assim me sai mal no pitch.
   
 ### Pré-Pitch
 
-  Vish, essa parte complicou demais, quem bolou a ideia, não tinha experiência com startup, como funcionava(claro todos estão em busca   de informação),
-  Ela tomou liderança, na hora do pré-pitch, não comentou conosco o que ia falar, foi confiante de que tudo ia dar certo.
+  Vish, essa parte complicou demais, a líder da ideia tomou liderança, na hora do pré-pitch, não comentou conosco o que ia falar, foi confiante de que tudo ia dar certo.
   Foi um desastre, ela recebou diversar críticas, não soube resolver algumas perguntas...
 
 ### Mais Problemas
